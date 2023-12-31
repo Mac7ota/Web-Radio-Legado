@@ -1,0 +1,65 @@
+[
+
+  {
+    "id": "1",
+    "nome": "travis",
+    "sobre": "nada",
+    "link": "Artista.aspx",
+    "programacoes": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw,https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw,https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw,https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "playlists": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "musicas": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "conteudos": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "agenda": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "instagram": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "soundcloud": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "tiktok": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "foto": "https://akamai.sscdn.co/uploadfile/letras/fotos/a/a/f/3/aaf3ab9056deacac3d53c6e10ef0f085.jpg"
+  },
+  {
+    "id": "1",
+    "nome": "Marcos",
+    "sobre": "nada",
+    "link": "Artista.aspx",
+    "programacoes": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "playlists": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "musicas": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "conteudos": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "agenda": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "instagram": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "soundcloud": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "tiktok": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "foto": "https://akamai.sscdn.co/uploadfile/letras/fotos/a/a/f/3/aaf3ab9056deacac3d53c6e10ef0f085.jpg"
+  },
+
+  {
+    "id": "1",
+    "nome": "Jorge",
+    "sobre": "nada",
+    "link": "Artista.aspx",
+    "programacoes": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "playlists": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "musicas": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "conteudos": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "agenda": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "instagram": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "soundcloud": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "tiktok": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "foto": "https://akamai.sscdn.co/uploadfile/letras/fotos/a/a/f/3/aaf3ab9056deacac3d53c6e10ef0f085.jpg"
+  },
+
+  {
+    "id": "1",
+    "nome": "Rodrigo",
+    "sobre": "nada",
+    "link": "Artista.aspx",
+    "programacoes": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "playlists": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "musicas": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "conteudos": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "agenda": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "instagram": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "soundcloud": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "tiktok": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "foto": "https://akamai.sscdn.co/uploadfile/letras/fotos/a/a/f/3/aaf3ab9056deacac3d53c6e10ef0f085.jpg"
+  }
+]

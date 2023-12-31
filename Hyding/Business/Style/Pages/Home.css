@@ -1,0 +1,386 @@
+﻿
+.SetLeft {
+    padding: 0px 0px 0px 100px;
+}
+
+.SetRight {
+    padding: 0px 100px 0px 0px;
+}
+
+h1 {
+    font-size:2.2rem;
+}
+
+a {
+    color:#000;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:none;
+    color:#000;
+}
+
+.Controller_Playlist {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin: 0px 100px 50px 100px;
+    border-bottom: 2px solid #000;
+    overflow: hidden;
+}
+
+.Nav_Playlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.DayWeek {
+    font-weight: bold;
+    text-align: end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+    .DayWeek span {
+        margin: 0px 7px;
+        cursor: pointer;
+    }
+
+.SpanLit {
+    position: relative;
+    top: 5px ;
+    transition:0.5s;
+}
+
+    .SpanLit:hover {
+        top:-0.5px;
+        transition: 0.5s;
+        color: rgb(204, 252, 52);
+        background-color: #000;
+        padding: 5px 10px;
+        border-radius: 20px;
+    }
+
+.Nav_Playlist h1 {
+    font-weight: bolder;
+}
+
+.Nav_Playlist p {
+    display:none;
+    position: relative;
+    top: 10px;
+    left: 35px;
+    cursor: pointer;
+}
+
+.Arrow_Playlist {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end
+}
+
+    .Arrow_Playlist span {
+        font-weight: bolder;
+        font-size: 30px;
+        -webkit-text-stroke: 1px black;
+        text-stroke: 1px black;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+        .Arrow_Playlist span:hover {
+            transition: 0.5s;
+            transform: scale(1.1)
+        }
+
+.Container_Playlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin: 0px 100px;
+    padding-bottom: 40px;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: smooth;
+}
+
+.Cards_Playlist {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: max-content;
+    scroll-snap-align: start;
+}
+
+    .Cards_Playlist > div:first-child {
+        margin-left: 0px;
+    }
+
+.Container_Playlist::-webkit-scrollbar {
+    display: none;
+    height: 5px;
+}
+
+.Container_Playlist::-webkit-scrollbar-thumb {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.Car_Playslits_ {
+    width: 225px;
+    height: 225px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+    .Car_Playslits_ img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        transition: 0.5s;
+    }
+
+.Cards_Playlist p {
+    position: relative;
+    bottom: 50px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
+}
+
+.CarUnic > a > p:nth-child(2) {
+    position: relative;
+    bottom: 200px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
+}
+
+.CarUnic > a > p:nth-child(3) {
+    position: relative;
+    bottom: 90px;
+    left: 25px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #fff;
+    text-shadow: 0px 0px 20px black;
+}
+
+.iconePL {
+    position:relative;
+    right:200px;
+    bottom:82px;
+    height:25px;
+    width:25px;
+    max-height:23px;
+    max-width:23px;
+    overflow:hidden;
+}
+
+.Cards_Playlist a:hover {
+    text-decoration: none;
+}
+
+.Car_Playslits_ img:hover {
+    transform: scale(0.95);
+    transition: 0.5s;
+}
+
+.Ativado {
+    color: rgb(204, 252, 52);
+    padding: 5px 10px;
+    border-radius:20px;
+    background-color: #000;
+    transition: 0.5s
+}
+
+
+
+
+
+.Container_Player {
+    height: 100px;
+    padding: 0px 100px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.Items_Player {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.IMG_Player {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+    .IMG_Player p {
+        color: rgb(204, 252, 52);
+        border: 1px solid rgb(204, 252, 52);
+        border-radius: 10px;
+        padding: 2px 4px;
+        font-size: 14px;
+        position: relative;
+        top: 2px;
+        margin: 0px 0px 0px 10px;
+    }
+
+    .IMG_Player img {
+        height: 70px;
+        width: 140px;
+        border-radius: 5px;
+    }
+
+.Play_Player {
+    width: 20%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+    .Play_Player img {
+        cursor: pointer;
+    }
+
+
+.Volume_Player {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+    .Volume_Player img {
+        margin: 0px 10px 0px 0px;
+    }
+
+#VolumeControle {
+    height: 5px;
+    top: 9px;
+    position: relative;
+}
+
+    #VolumeControle[type="range"] {
+        -webkit-appearance: none;
+        background: #ddd;
+        height: 5px;
+        color: rgb(204, 252, 52);
+        background: rgb(204, 252, 52)
+    }
+
+        #VolumeControle[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            width: 15px;
+            height: 15px;
+            background: rgb(204, 252, 52);
+            background: rgb(204, 252, 52);
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1130px) {
+    .SpanLit {
+        display: none;
+    }
+
+    .Ativado {
+        display: flex;
+    }
+
+    .DayWeek {
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .Controller_Playlist, .Container_Playlist {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .Container_Player {
+        padding: 0px 50px;
+    }
+
+    .SetLeft {
+        padding: 0px 0px 0px 50px;
+    }
+
+    .Ativado {
+        position: relative;
+        right: 25px;
+    }
+
+    .SetRight {
+        padding: 0px 50px 0px 0px;
+    }
+
+    .DayWeek {
+        justify-content: flex-end;
+    }
+
+    .Car_Playslits_ {
+        width: 180px;
+        height: 160px;
+    }
+
+    .Nav_Playlist h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Ativado {
+        display: none;
+    }
+
+    .Nav_Playlist p {
+        display: none;
+    }
+
+    .IMG_Player p {
+        display: none;
+    }
+}

@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Home.master.cs" Inherits="Hyding.Business.Pages.Home" %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head runat="server">    
+    <meta charset="UTF-8" />
+    <link rel="icon" href="Business/Picture/Pages/pngwing.com.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyding</title>
+    <script src="Business/Script/Pages/Artistas.js"></script>
+    <link rel="stylesheet" href="Business/Style/Pages/MasterPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-H2PfzxM2wSfR6z+8pBj/9t2Q2l9Yt6sN7ZrBkQIYvzQkz7g6G0RQoZ6VbL8QyJrG3BxV2VjX7/+c8pJQYuZi2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div class="Space">
+                <div class="Container_Nav">
+                    <div class="Icone_Nav">
+                        <a href="index.aspx"><img src="Business/Picture/Pages/Hyding logo.png" /></a>
+                    </div>
+                    <div class="Controler_Nav">
+                        <div class="Links_Nav">
+                            <a href="index.aspx">Início</a>
+                            <a href="Playlist.aspx">Playlist</a>
+                            <a href="Programação.aspx">Programação</a>
+                            <a href="Canais.aspx">Canais</a>
+                            <a href="." style="display:none;">Loja</a>
+                        </div>
+                        <div class="Tools_Nav">
+                            <button type="submit" class="btn-default">
+                                <i class="fas fa-search" style="color: white; background-color: black; padding: 5px; display:none;"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="Hamburguer_Nav">
+                        <button  id="HB" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="fas fa-bars"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="Guias_Nav"></div>
+
+
+            <script src="Business/Script/Pages/Main.js"></script>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            <div class="Container_Footer">
+                <div class="Items_Footer">
+                    <div class="Sumario_Footer">
+                        <h1>Hyding</h1>
+                    </div>
+                    <div class="Nav_Footer">
+                        <div class="Pesquisa_Footer">
+                            <p>Explore</p>
+                            <div class="Categoria_Footer">
+                                <a href="Home.aspx"><p>Início</p></a>
+                                <a href="Programação.aspx"><p>Programações</p></a>
+                                <a><p style="display:none;">Trabalhe conosco</p></a>
+                                <a href="Playlist.aspx"><p>Playlists</p></a>
+                                <a><p>Canais</p></a>
+                                <a href="Contato.aspx"><p>Seja nosso artista</p></a>
+                            </div>
+                        </div>
+                        <div class="Social_Footer">
+                            <p>Redes Sociais</p>
+                            <div class="Icones_Sociais">
+                                <a href="https://instagram.com/hyding.co" target="_blunk"> 
+                                    <i class="fab fa-instagram fa-5x text-dark" style="font-size:20px; margin-right:3px;"></i>
+                                </a>
+
+                                <a href="#">
+                                    <i class="fab fa-spotify fa-5x text-dark" style="font-size:18px;"></i>              
+                                </a>
+
+                                <a href="https://www.twitch.tv/hydingco" target="_blunk">
+                                    <i class="fab fa-twitch fa-5x text-dark" style="font-size:18px;"></i>
+                                </a>
+
+                                <a href="https://www.youtube.com/channel/UCZvmMvxFEy7wHWEFPu9z0lg" target="_blunk">
+                                    <i class="fab fa-youtube fa-5x text-dark" style="font-size:17px;"></i>
+                                </a>
+
+                                <a href="#">
+                                    <i class="fab fa-soundcloud fa-5x text-dark" style="font-size:16px;"></i>
+                                </a>
+
+                                <a href="#">
+                                    <i class="fab fa-tiktok" style="font-size:18px;"></i>
+                                </a>
+
+                            </div>
+                    </div>
+                </div>
+                <div class="Copy_Footer">
+                    <p>Hyding 2023</p>
+                    <p>Direitos de Privacidade</p>
+                    <p>Cookies</p>
+                    <p>Termos e Condiçoes</p>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </form>
+</body>
+</html>

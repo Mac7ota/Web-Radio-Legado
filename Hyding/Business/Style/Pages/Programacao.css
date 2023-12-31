@@ -1,0 +1,106 @@
+﻿
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+        color: #000;
+    }
+
+
+.Controller_Playlist {
+    margin:50px 100px 0px 100px;
+}
+
+.Nav_Playlist > h1{
+    font-weight:bold;
+}
+
+.DayWeek {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.SpanLit {
+    background-color: #000;
+    color: rgb(204, 252, 52);
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 14px;
+    padding: 8px 13px;
+    cursor: pointer;
+    margin:5px 0px;
+}
+
+.Ativado {
+    background-color: rgb(204, 252, 52);
+    color:#000;
+}
+
+.Controller_Playlist > div {
+    margin: 35px 0px 0px 0px;
+}
+
+#Card_ContainerON {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0px 100px 0px 100px;
+    justify-content: space-between;
+    overflow: hidden;
+    align-content: center;
+}
+
+.Car_Playslits_  {
+    height: 350px;
+    width: 405px;
+    overflow:hidden;
+        border-radius: 20px;
+        margin: 0px 0px 55px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Car_Playslits_ > div:first-child {
+        height: 65%;
+        width: 100%;
+        overflow:hidden;
+        
+    }
+    .Car_Playslits_ > div:first-child > img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .Car_Playslits_ > div:nth-child(2) {
+        height: 35%;
+        background-color: #ccfc8c;
+        width: 100%;
+    }
+
+    .Car_Playslits_ > div:nth-child(2) > p {
+        padding:10px 10px 10px 10px;
+    
+    }
+
+        .Car_Playslits_ > div:nth-child(2) > p:first-child {
+            font-weight: 900;
+        }
+
+
+@media screen and (max-width: 800px) {
+    .Controller_Playlist {
+        margin: 50px 50px 0px 50px;
+    }
+    #Card_ContainerON {
+        padding: 0px 50px 0px 50px;
+        
+    }
+
+}

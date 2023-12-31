@@ -1,0 +1,80 @@
+﻿a {
+    text-decoration:none;
+}
+
+.Formulario {
+    width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.Container_Form {
+    margin:50px 0px;
+    background-image: url("../../Picture/Pages/BackGroundContato.png");
+    background-size:cover;
+   
+    padding:30px;  
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    border-radius:20px;
+}
+
+    .Container_Form > h1:first-child {
+        text-transform:uppercase;
+        font-weight:900;
+        font-size:22px;
+        position:relative;
+        right:60px;
+        margin:0px 0px 20px 0px;
+    }
+
+
+    .NomeF, .EmailF, .MensagemF {
+        width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .NomeF > input, .EmailF > input {
+        height:20px;
+    }
+
+    .NomeF > input, .EmailF > input, .MensagemF > textarea {
+        margin: 15px 0px;
+        color: #fff;
+        width: 400px;
+        padding: 10px 10px;
+        border-radius: 20px;
+        border: none;
+        background-color: #000;
+    }
+
+
+        .NomeF > input::placeholder, .EmailF > input::placeholder, .MensagemF > textarea::placeholder {
+            color: #fff;
+           
+        }
+
+        .MensagemF > textarea::placeholder {
+        position:relative;
+        top:30px;
+        text-align:center
+        }
+
+.buttonEnviar > input {
+    margin:15px 0px 0px 0px ;
+    background-color:#000;
+    border-radius:20px;
+    color:#fff;
+    font-weight:900;
+    padding:10px 15px;
+    border:none;
+    cursor:pointer;
+}
+
+

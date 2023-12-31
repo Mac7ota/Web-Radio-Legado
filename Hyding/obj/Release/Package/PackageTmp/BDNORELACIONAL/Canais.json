@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "nome": "Travis",
+    "link": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY?si=wBMCa0ScSnuvU4dZa2EiAw",
+    "foto": "https://akamai.sscdn.co/uploadfile/letras/fotos/a/a/f/3/aaf3ab9056deacac3d53c6e10ef0f085.jpg"
+  },
+  {
+    "id": "2",
+    "nome": "Eminem",
+    "link": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR?si=J3zXzyNHQ9KvKuap28IpUQ",
+    "foto": "https://www.vagalume.com.br/dynimage/news19824-big.webp"
+  },
+  {
+    "id": "3",
+    "nome": "Eminem",
+    "link": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR?si=J3zXzyNHQ9KvKuap28IpUQ",
+    "foto": "https://www.vagalume.com.br/dynimage/news19824-big.webp"
+  },
+  {
+    "id": "4",
+    "nome": "Eminem",
+    "link": "https://open.spotify.com/artist/7dGJo4pcD2V6oG8kP0tJRR?si=J3zXzyNHQ9KvKuap28IpUQ",
+    "foto": "https://www.vagalume.com.br/dynimage/news19824-big.webp"
+  }
+]

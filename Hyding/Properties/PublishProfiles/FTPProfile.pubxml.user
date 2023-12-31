@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdSI9nbhHek+8eHJOH7dfJAAAAAACAAAAAAAQZgAAAAEAACAAAAAND2ZQWUJ/ggYowsjNXa1v9XLD9Gm9lJa5sOC6O8S+tgAAAAAOgAAAAAIAACAAAABUdsuicmRXtNDJVuosQVYcv3zbk27IAiuCHVcdccHdeCAAAAAK7g9/gGBJvrCpw9E0e3YZ6q4z5G8liosAHAOri2MLLEAAAAAMgr7i/sKLRRZLvPXgbs3QPsGOT2G/KfXzDR4/r6mmpGiWWCJEfoy8hjUgfj6npMXx8b4wfLKpMSrjpSGjHdD8</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp.hyding.co</_PublishTargetUrl>
+    <History>False|2023-07-15T01:11:19.7825127Z;False|2023-07-14T22:03:24.9676267-03:00;False|2023-06-24T23:11:07.1555718-03:00;</History>
+  </PropertyGroup>
+</Project>
